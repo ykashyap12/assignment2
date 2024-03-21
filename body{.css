@@ -1,0 +1,117 @@
+body{
+    height:100vh;
+    width: 100vw;
+    margin:0px;
+    overflow:hidden; 
+    font-family: 'Fantasy', cursive;
+    background-color: purple;
+}
+.header img{
+    height:auto;
+    width:100%;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    margin:0px;
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color:gold;
+}
+.input{
+    height: 100%;
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid gray;
+    height:20%;
+    width: 100%;
+    background-color: rgb(18, 18, 18);
+}
+.main-data{
+    height:80%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.endpoints-container{
+    height: 100%;
+    width:20%;
+    border:2px solid gray;
+    background-color: rgb(18, 18, 18);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    gap:20px;
+}
+.endpoint:hover{
+    color:cyan;
+    cursor:pointer;
+}
+.gif-container{
+    border: 2px solid gray;
+    height:100%;
+    width: 80%;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;      
+    background-color: rgb(18, 18, 18);
+}
+.categories{
+    height:100%;
+    width:20%;
+    border: 2px solid gray;
+    background-color: rgb(18, 18, 18);
+}
+.gif{
+    margin:2px;   
+}
+.gif img{
+    border-radius: 0.5rem;
+    border: 2px solid gold;
+}
+#search_gif{
+    border:2px solid gray;
+    background-color: rgb(18, 18, 18);
+    width:80%;
+    color:white;
+    height: 20%;    
+    outline:none;
+    padding:0.3rem;
+    border-radius: 0.5rem;
+    font-size: 20px;
+}
+#search_gif:hover{
+    border-color:aqua;
+}
+#submit_search{
+    border:2px solid gray;
+    background-color: rgb(18, 18, 18);
+    color:white;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    height:30%;
+    cursor: pointer;
+}
+#submit_search:hover{
+    border-color:aqua;
+}
